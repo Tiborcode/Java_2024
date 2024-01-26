@@ -16,12 +16,12 @@ public class SecurityConf extends WebSecurityConfigurerAdapter {
 	public void configureAuth(AuthenticationManagerBuilder auth) throws Exception{
 		auth
 		  .inMemoryAuthentication()
-		    .withUser("sfjuser") 
-		    .password("pass")
+		    .withUser("keke") 
+		    .password("keke")
 		    .roles("USER")
 		   .and()
-             .withUser("sfjadmin")
-             .password("pass")
+             .withUser("keke")
+             .password("keke")
              .roles("ADMIN");
 	}
 	
